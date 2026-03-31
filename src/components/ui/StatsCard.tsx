@@ -46,8 +46,8 @@ export default function StatsCard({
             </div>
           )}
         </div>
-        <div className="ml-4 flex-shrink-0 rounded-lg bg-indigo-50 p-3">
-          <Icon className="h-6 w-6 text-indigo-600" />
+        <div className="ml-4 flex-shrink-0 rounded-lg bg-driftwood-500/10 p-3">
+          <Icon className="h-6 w-6 text-driftwood-500" />
         </div>
       </div>
     </div>

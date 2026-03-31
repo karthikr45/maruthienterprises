@@ -388,7 +388,7 @@ export default function CompliancePage() {
                     <div className="flex items-center gap-2">
                       <button
                         onClick={() => handleEdit(record)}
-                        className="p-1 text-gray-400 hover:text-indigo-600 transition-colors"
+                        className="p-1 text-gray-400 hover:text-driftwood-500 transition-colors"
                         title="Edit"
                       >
                         <Pencil className="h-4 w-4" />

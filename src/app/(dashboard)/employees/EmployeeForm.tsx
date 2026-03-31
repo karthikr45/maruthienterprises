@@ -325,7 +325,7 @@ export default function EmployeeForm({ employee, onSuccess, onCancel }: Employee
                   type="checkbox"
                   checked={form.assignedBanks.includes(bank._id)}
                   onChange={() => handleBankToggle(bank._id)}
-                  className="rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                  className="rounded border-gray-300 text-driftwood-500 focus:ring-driftwood-400"
                 />
                 <span className="text-sm text-gray-700">
                   {bank.name} ({bank.code})

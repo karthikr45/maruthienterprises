@@ -50,7 +50,7 @@ export default function Modal({
           )}
           <button
             onClick={onClose}
-            className="ml-auto p-1 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 transition-colors"
+            className="ml-auto p-1 rounded-md text-gray-400 hover:text-driftwood-600 hover:bg-driftwood-500/10 transition-colors"
           >
             <X className="h-5 w-5" />
           </button>

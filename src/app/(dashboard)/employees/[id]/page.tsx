@@ -138,7 +138,7 @@ export default function EmployeeDetailPage() {
 
   // Quick stats
   const stats = [
-    { label: 'Total Visits', value: '-', icon: <MapPin className="h-5 w-5 text-indigo-500" /> },
+    { label: 'Total Visits', value: '-', icon: <MapPin className="h-5 w-5 text-driftwood-400" /> },
     { label: 'Total Collected', value: '-', icon: <DollarSign className="h-5 w-5 text-green-500" /> },
     { label: 'Attendance Rate', value: '-', icon: <CalendarDays className="h-5 w-5 text-blue-500" /> },
     { label: 'Assigned Banks', value: employee.assignedBanks?.length || 0, icon: <Building2 className="h-5 w-5 text-purple-500" /> },
@@ -190,7 +190,7 @@ export default function EmployeeDetailPage() {
               onClick={() => setActiveTab(tab.key)}
               className={`flex items-center gap-2 pb-3 px-1 text-sm font-medium border-b-2 transition-colors whitespace-nowrap ${
                 activeTab === tab.key
-                  ? 'border-indigo-600 text-indigo-600'
+                  ? 'border-driftwood-500 text-driftwood-500'
                   : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
               }`}
             >

@@ -324,8 +324,8 @@ export default function VisitForm({ onSuccess, onCancel }: VisitFormProps) {
                 <button
                   key={c._id}
                   type="button"
-                  className={`w-full text-left px-4 py-2 text-sm hover:bg-indigo-50 transition-colors ${
-                    form.customerId === c._id ? 'bg-indigo-50 text-indigo-700' : 'text-gray-700'
+                  className={`w-full text-left px-4 py-2 text-sm hover:bg-driftwood-50 transition-colors ${
+                    form.customerId === c._id ? 'bg-driftwood-50 text-driftwood-600' : 'text-gray-700'
                   }`}
                   onClick={() => handleCustomerSelect(c)}
                 >
@@ -407,7 +407,7 @@ export default function VisitForm({ onSuccess, onCancel }: VisitFormProps) {
           value={form.remarks}
           onChange={handleChange}
           rows={3}
-          className="block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+          className="block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500"
           placeholder="Additional notes about the visit..."
         />
       </div>

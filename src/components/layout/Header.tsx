@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-30 bg-white border-b border-gray-200 shadow-sm">
+    <header className="sticky top-0 z-30 bg-white border-b border-morning-200 shadow-sm">
       <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
         {/* App name */}
         <h1 className="text-lg font-semibold text-gray-800 truncate pl-12 lg:pl-0">
@@ -36,8 +36,8 @@ export default function Header() {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-100 transition-colors"
           >
-            <div className="h-8 w-8 rounded-full bg-indigo-100 flex items-center justify-center">
-              <User className="h-4 w-4 text-indigo-600" />
+            <div className="h-8 w-8 rounded-full bg-driftwood-500/10 flex items-center justify-center">
+              <User className="h-4 w-4 text-driftwood-500" />
             </div>
             <span className="hidden sm:block font-medium">
               {session?.user?.name || 'User'}

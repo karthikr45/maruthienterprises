@@ -21,7 +21,7 @@ export default function Loader({
   return (
     <div className={`flex flex-col items-center justify-center ${className}`}>
       <Loader2
-        className={`animate-spin text-indigo-600 ${sizeStyles[size]}`}
+        className={`animate-spin text-driftwood-500 ${sizeStyles[size]}`}
       />
       {label && (
         <p className="mt-2 text-sm text-gray-500">{label}</p>

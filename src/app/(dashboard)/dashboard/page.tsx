@@ -148,7 +148,7 @@ export default function DashboardPage() {
           <p className="text-red-500 text-lg font-medium">{error}</p>
           <button
             onClick={() => window.location.reload()}
-            className="mt-4 text-indigo-600 hover:text-indigo-500 font-medium"
+            className="mt-4 text-driftwood-600 hover:text-driftwood-500 font-medium"
           >
             Try again
           </button>
@@ -162,8 +162,8 @@ export default function DashboardPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-        <p className="mt-1 text-sm text-gray-500">
+        <h1 className="text-2xl font-bold text-cocoa-800">Dashboard</h1>
+        <p className="mt-1 text-sm text-morning-500">
           Overview of your recovery agency performance
         </p>
       </div>
@@ -265,7 +265,7 @@ export default function DashboardPage() {
                 />
                 <Bar
                   dataKey="amount"
-                  fill="#4f46e5"
+                  fill="#B07B6B"
                   radius={[4, 4, 0, 0]}
                   maxBarSize={50}
                 />
@@ -295,7 +295,7 @@ export default function DashboardPage() {
                     <TableCell>
                       <div>
                         <p className="font-medium">{visit.customerName}</p>
-                        <p className="text-xs text-gray-500">
+                        <p className="text-xs text-morning-500">
                           {formatDate(visit.date)}
                         </p>
                       </div>
@@ -312,7 +312,7 @@ export default function DashboardPage() {
               </TableBody>
             </Table>
           ) : (
-            <p className="text-sm text-gray-500 text-center py-8">
+            <p className="text-sm text-morning-500 text-center py-8">
               No recent visits
             </p>
           )}
@@ -336,7 +336,7 @@ export default function DashboardPage() {
                     <TableCell>
                       <div>
                         <p className="font-medium">{followUp.customerName}</p>
-                        <p className="text-xs text-gray-500 truncate max-w-[150px]">
+                        <p className="text-xs text-morning-500 truncate max-w-[150px]">
                           {followUp.remarks}
                         </p>
                       </div>
@@ -353,7 +353,7 @@ export default function DashboardPage() {
               </TableBody>
             </Table>
           ) : (
-            <p className="text-sm text-gray-500 text-center py-8">
+            <p className="text-sm text-morning-500 text-center py-8">
               No upcoming follow-ups
             </p>
           )}

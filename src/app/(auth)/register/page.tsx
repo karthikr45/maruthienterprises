@@ -109,7 +109,7 @@ export default function RegisterPage() {
               required
               value={form.name}
               onChange={handleChange}
-              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500 sm:text-sm"
               placeholder="John Doe"
             />
           </div>
@@ -134,7 +134,7 @@ export default function RegisterPage() {
               required
               value={form.email}
               onChange={handleChange}
-              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500 sm:text-sm"
               placeholder="you@example.com"
             />
           </div>
@@ -159,7 +159,7 @@ export default function RegisterPage() {
               required
               value={form.phone}
               onChange={handleChange}
-              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500 sm:text-sm"
               placeholder="+91 9876543210"
             />
           </div>
@@ -184,7 +184,7 @@ export default function RegisterPage() {
               required
               value={form.password}
               onChange={handleChange}
-              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500 sm:text-sm"
               placeholder="Min. 6 characters"
             />
           </div>
@@ -209,7 +209,7 @@ export default function RegisterPage() {
               required
               value={form.confirmPassword}
               onChange={handleChange}
-              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="block w-full pl-10 pr-3 py-2.5 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-driftwood-500 focus:border-driftwood-500 sm:text-sm"
               placeholder="Re-enter your password"
             />
           </div>
@@ -230,7 +230,7 @@ export default function RegisterPage() {
         Already have an account?{' '}
         <Link
           href="/login"
-          className="font-medium text-indigo-600 hover:text-indigo-500"
+          className="font-medium text-driftwood-600 hover:text-driftwood-500"
         >
           Sign in
         </Link>

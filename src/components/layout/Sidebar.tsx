@@ -50,8 +50,8 @@ export default function Sidebar() {
             onClick={() => setMobileOpen(false)}
             className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
               active
-                ? 'bg-indigo-700 text-white'
-                : 'text-indigo-100 hover:bg-indigo-700/50 hover:text-white'
+                ? 'bg-driftwood-500 text-white'
+                : 'text-pearl-200 hover:bg-cocoa-700 hover:text-white'
             }`}
           >
             <Icon className="h-5 w-5 flex-shrink-0" />
@@ -67,7 +67,7 @@ export default function Sidebar() {
       {/* Mobile toggle */}
       <button
         onClick={() => setMobileOpen(true)}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-indigo-800 text-white shadow-lg"
+        className="lg:hidden fixed top-4 left-4 z-50 p-2 rounded-md bg-cocoa-800 text-white shadow-lg"
         aria-label="Open sidebar"
       >
         <Menu className="h-5 w-5" />
@@ -83,15 +83,15 @@ export default function Sidebar() {
 
       {/* Mobile sidebar */}
       <aside
-        className={`lg:hidden fixed inset-y-0 left-0 z-50 w-64 bg-indigo-900 transform transition-transform duration-200 ${
+        className={`lg:hidden fixed inset-y-0 left-0 z-50 w-64 bg-cocoa-800 transform transition-transform duration-200 ${
           mobileOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
-        <div className="flex items-center justify-between px-4 py-5 border-b border-indigo-700">
+        <div className="flex items-center justify-between px-4 py-5 border-b border-cocoa-700 bg-cocoa-900">
           <span className="text-lg font-bold text-white">ME Recovery</span>
           <button
             onClick={() => setMobileOpen(false)}
-            className="p-1 rounded-md text-indigo-300 hover:text-white"
+            className="p-1 rounded-md text-pearl-200 hover:text-white"
           >
             <X className="h-5 w-5" />
           </button>
@@ -100,8 +100,8 @@ export default function Sidebar() {
       </aside>
 
       {/* Desktop sidebar */}
-      <aside className="hidden lg:flex lg:flex-col lg:w-64 lg:fixed lg:inset-y-0 bg-indigo-900">
-        <div className="flex items-center px-6 py-5 border-b border-indigo-700">
+      <aside className="hidden lg:flex lg:flex-col lg:w-64 lg:fixed lg:inset-y-0 bg-cocoa-800">
+        <div className="flex items-center px-6 py-5 border-b border-cocoa-700 bg-cocoa-900">
           <span className="text-lg font-bold text-white tracking-wide">
             ME Recovery
           </span>
