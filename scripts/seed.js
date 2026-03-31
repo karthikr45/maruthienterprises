@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 const { config } = require('dotenv');
 const path = require('path');
 
-config({ path: path.resolve(__dirname, '../.env.local') });
+config({ path: path.resolve(__dirname, '../.env') });
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/recovery-agency';
 
